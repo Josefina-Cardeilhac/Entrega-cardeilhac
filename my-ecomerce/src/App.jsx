@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import ItemListContainer from "./componentes/ItemListContainer"
 import './App.css'
 
 function App() {
   return (
     <>
-      <div>
-        <h1>
-          bienvenidos a react
-        </h1>
+      <div id="app">
+       <p>
+        hola mundo
+       </p>
+       <ItemListContainer saludo ="prop desde app"/>
+       <ItemListContainer saludo ="otra prop desde app"/>
       </div>
       
     </>
